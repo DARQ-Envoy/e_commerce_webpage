@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css3/style.css">
+    <script src="js/bootstrap.bundle.js" defer></script>
+    <script src="script.js" defer></script>
+    <title>GO Online Stores</title>
+</head>
+<body>
+    <main>
+        <article>
+            <header class="mt-2 mb-4 mx-2">
+                    
+      <nav class="navbar navbar-light bg-white navbar-expand-md pb-0 mb-0">
+  <div class="container-fluid mb-0 pb-0">
+          <div class="d-md-flex align-items-center justify-content-start me-auto mb-0 pb-o">
+
+      <div class="order-2 d-inline-block mt-1 mb-0 pb-0">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#go-commerce" aria-controls="go-commerce">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="go-commerce" aria-labelledby="go-commerce-heading">
+              <div class="offcanvas-header">
+                <button type="button" class="btn-close text-reset me-auto btn-lg fw-bold mt-2" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active fw-bold go-nav-link" aria-current="page" href="#">Collections</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold go-nav-link" href="#">Men</a>
+                  </li>
+  
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold go-nav-link" href="#">Women</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold go-nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold go-nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+      </div>
+
+
+    <a class="navbar-brand fw-bold section-head ms-2 me-auto order-1 pee-bee" href="#">Sneakers</a>
+  </div>
+
+        
+          <div class="ms-auto position-relative mb-0 pb-0">
+            <img src="images/icon-cart.svg" alt="Cart icon" class="ms-auto icon-nav" id="cart-el"/>
+
+            <div class="container-fluid rounded bg-white py-2 px-4 position-absolute hide" id="cart-record">
+  <div class="d-flex px-0 align-items-center justify-content-between ">
+                <h6 class="text-start fw-bold pt-3 pb-0 d-inline-block">Cart</h6>
+      <img src="images/icon-close.svg" class=" d-inline-block ms-auto me-2 close-icon" alt="close icon" id="close-record"/>
+  </div>     
+              <hr class="w-100">
+
+
+
+  <div id="cart-record-body" class="cart-body overflow-auto"></div>
+
+
+
+
+
+              <button class="btn btn-lg text-white bg-orange w-100 sm-text my-3">Checkout</button>
+            </div>  
+          </div>
+
+          <img src="images/image-avatar.png" alt="avatar icon" class="rounded-circle ms-3 heading-img icon-nav"/>
+
+  </div>
+  </nav>
+      <span class="nav-end-line d-md-block d-none w-100 bg-secondary mx-2 pt-0 mt-0">&nbsp;</span>
+            </header>
+
+<section class=" container-lg px-2 d-md-flex align-items-start justify-content-between" id="sneakers-section">
+        
+  <section id="sneakers-slide" class="mb-4">
+
+    </section>
+
+
+
+<section class="container-md my-3 px-4" id="sneakers-price">
+              <h6 class="mb-2 fw-bold text-orange display-10">
+                SNEAKER COMPANY
+              </h6>
+              <h2 class="fw-bold text-dark" id="product-intro">
+                Fall Limited Edition Sneakers
+              </h2>
+              <p class="text-muted my-3 pe-3">
+                These low-profile sneakers are your perfect casual wear companion. Featuring a 
+                durable rubber outer sole, they’ll withstand everything the weather can offer.
+              </p>
+
+
+
+          <div class="container-fluid d-flex align-items-center justify-content-between flex-wrap mx-0 " id="price">
+                <div class="d-flex align-items-center justify-content-between">
+                  <span class="d-block h3 fw-bold">$<span class="h3 fw-bold" id="new-price">125.00</span></span>
+                  <span class="d-block py-1 px-2 text-orange discount bg-pale-orange ms-3 rounded fw-bold h6">50%</span>
+                </div>
+            
+            
+                <span class="d-inline-block text-muted fw-bold">$250.00</span>
+
+          </div>
+
+    <div class="container-fluid d-md-flex align-items-center justify-content-between">
+            <div class="container-fluid bg-light-gray rounded my-4 d-flex align-items-center justify-content-between  px-5 mx-2 flex-buttons">
+              <img src="images/icon-plus.svg" alt="Plus Icon" class="p-1 hover fading" id="add-icon">
+              <span class="fw-bold h4 d-block pt-2" id="amount">0</span>
+              <img src="images/icon-minus.svg" alt="minus icon" class="p-1 hover fading" id="minus-icon"/>
+            </div>
+
+
+                  <a href="#"  class="container-fluid bg-orange text-white text-center d-block py-2 rounded-pill mx-2 flex-buttons last-link fading add-to-cart" id="cart-addition">
+                    <svg width="22" class="cart-icon me-2" height="20" xmlns="http://www.w3.org/2000/svg"><path class="white-icon" d="M20.925 3.641H3.863L3.61.816A.896.896 0 0 0 2.717 0H.897a.896.896 0 1 0 0 1.792h1l1.031 11.483c.073.828.52 1.726 1.291 2.336C2.83 17.385 4.099 20 6.359 20c1.875 0 3.197-1.87 2.554-3.642h4.905c-.642 1.77.677 3.642 2.555 3.642a2.72 2.72 0 0 0 2.717-2.717 2.72 2.72 0 0 0-2.717-2.717H6.365c-.681 0-1.274-.41-1.53-1.009l14.321-.842a.896.896 0 0 0 .817-.677l1.821-7.283a.897.897 0 0 0-.87-1.114ZM6.358 18.208a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm10.015 0a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm2.021-7.243-13.8.81-.57-6.341h15.753l-1.383 5.53Z" fill="#69707D" fill-rule="nonzero"/></svg>
+                    <span class="fw-bold">
+                      Add to cart
+                    </span>
+                  </a>
+        </div>
+            </section>
+
+
+</section>
+
+
+        </article>
+    </main>
+</body>
+</html>
+
+
